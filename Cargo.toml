@@ -1,5 +1,8 @@
 [package]
 name = "async-io-bufpool"
+description="A helper crate to read from AsyncReads in an extremely memory-efficient way"
+license="ISC"
+repository = "https://github.com/mel-project/async-io-bufpool"
 version = "0.1.0"
 edition = "2021"
 

@@ -3,7 +3,7 @@ name = "async-io-bufpool"
 description="A helper crate to read from AsyncReads in an extremely memory-efficient way"
 license="ISC"
 repository = "https://github.com/mel-project/async-io-bufpool"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 
 [dependencies]

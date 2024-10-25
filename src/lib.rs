@@ -31,7 +31,7 @@ impl<T: AsyncRead> Future for PooledOnceReader<T> {
                 POOL.push(free_buf);
                 std::task::Poll::Ready(Err(err))
             }
-            std::task::Poll::Pending => todo!(),
+            std::task::Poll::Pending => std::task::Poll::Pending,
         }
     }
 }

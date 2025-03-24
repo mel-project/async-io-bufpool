@@ -3,7 +3,7 @@ name = "async-io-bufpool"
 description="Efficient asynchronous I/O operations with minimal idle memory overhead"
 license="ISC"
 repository = "https://github.com/mel-project/async-io-bufpool"
-version = "0.1.2"
+version = "0.2.0"
 edition = "2021"
 
 [dependencies]

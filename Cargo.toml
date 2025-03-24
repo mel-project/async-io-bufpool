@@ -1,6 +1,6 @@
 [package]
 name = "async-io-bufpool"
-description="A helper crate to read from AsyncReads in an extremely memory-efficient way"
+description="Efficient asynchronous I/O operations with minimal idle memory overhead"
 license="ISC"
 repository = "https://github.com/mel-project/async-io-bufpool"
 version = "0.1.2"
@@ -10,3 +10,8 @@ edition = "2021"
 bytes = "1.8.0"
 crossbeam-queue = "0.3.11"
 futures-util = {version="0.3.31", features=["io"]}
+pin-project-lite = "0.2.16"
+pretty-readme="0.1"
+
+[dev-dependencies]
+pollster="0.4"
